@@ -1,0 +1,33 @@
+body{
+    margin-top: 100px;
+    font-family: cursive;
+}
+
+.page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.range{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.color-description {
+    width: 100px;
+}
+
+.color-code{
+    width: 40px;
+    margin-left: 10px;
+}
+
+.color-display{
+    margin-top:  35px;
+    width: 140px;
+    height: 140px;
+}

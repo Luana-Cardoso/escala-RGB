@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trabalho prático</title>
+</head>
+<body>
+    <div class="page-content" >
+        <h1>Trabalho prático  - Escala de cores RGB</h1>
+
+    <div class="range">
+        <span class="color-description"> (R) Vermelho</span>
+        <input id="redRange" min="0" max="255"  type="range" value="0">
+        <input id="redCode" disabled class="color-code" type="number" value="0">
+    </div>
+
+    <div class="range">
+        <span class="color-description"> (G) Verde</span>
+        <input id="greenRange" min="0" max="255" type="range" value="0">
+        <input id="greenCode" disabled class="color-code" type="number" value="0">
+    </div>
+
+    <div class="range">
+        <span class="color-description"> (B) Azul</span>
+        <input id="blueRange" min="0" max="255" type="range" value="0">
+        <input id="blueCode" disabled class="color-code" type="number" value="0">
+    </div>
+
+    <div id="coloredSquare" class="color-display">
+
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
